@@ -1,14 +1,80 @@
-# Hostel Booking AI
+# Hostel Booking AI - Rust Beginner's Toolkit
 
-A Rust-based AI system for hostel booking management.
+🏨 A Rust-based AI system demonstrating core language features through a hostel booking application.
 
-## Setup
+## 🎯 Project Overview
 
+This project serves as a **beginner's toolkit for learning Rust** through a practical example. It demonstrates:
+- Rust's ownership model and borrowing
+- Struct definitions and implementations
+- Module organization and visibility
+- Pattern matching and Option types
+- Basic "AI" logic with preference matching
+
+## 🚀 Quick Start
+
+### Prerequisites
+- Rust 1.70+ installed ([Install Rust](https://rustup.rs/))
+- Git for cloning
+
+### Run the Project
 ```bash
+# Clone the repository
+git clone https://github.com/Breechelugui/hostel_booking_AI.git
+cd hostel_booking_AI
+
+# Build and run
 cargo build
 cargo run
 ```
 
-## Requirements
+### Expected Output
+```
+🏨 Welcome to Hostel Booking AI System!
+=========================================
 
-- Rust 1.70+
+📋 Processing booking #1
+Guest: John Doe
+Preferences: quiet room please
+✅ Booking confirmed!
+   Room: 101 (quiet)
+   Price: $50/night
+   Guest: John Doe
+
+...
+```
+
+## 📚 Learning Resources
+
+For the complete learning guide, see [TOOLKIT.md](./TOOLKIT.md) which includes:
+- Step-by-step Rust setup
+- Code explanations with AI prompts used
+- Common errors and solutions
+- Next steps for beginners
+
+## 📜 Project Structure
+
+```
+src/
+├── main.rs      # Entry point with demo
+├── lib.rs       # Library exports
+├── booking.rs   # Booking struct and methods
+└── ai.rs        # AI logic and room management
+```
+
+## 🧪 Features Demonstrated
+
+- **Ownership & Borrowing**: Safe memory management without garbage collection
+- **Structs & Methods**: Object-oriented patterns in Rust
+- **Modules**: Code organization and visibility
+- **Pattern Matching**: Powerful control flow with `match`
+- **Option Types**: Null safety with `Some`/`None`
+
+## 🔧 Built With
+
+- **Rust 1.70+** - Systems programming language
+- **Cargo** - Rust's build system and package manager
+
+---
+
+🎓 **Part of Moringa AI Capstone Project**: *Prompt-Powered Kickstart for Rust Programming*
